@@ -263,7 +263,7 @@
 
                 </div>
             </aside>
-            
+
             <main class="p-4 md:ml-72 h-auto font-poppins">
                 <div class="border border-gray-100 min-h-screen rounded-2xl">
                     <div class="px-4 flex flex-row items-center justify-between">
@@ -306,19 +306,20 @@
 
                     <section class="px-4 flex flex-col md:flex-row items-start gap-4 md:items-center justify-between">
                         <div class="font-poppins space-y-1">
-                            <h2 class="text-2xl font-medium">Dashboard</h2>
-                            <p class="text-sm text-gray-500">Track sales and performance right here</p>
+                            <h2 class="text-2xl font-medium">Users Page</h2>
+                            <p class="text-sm text-gray-500">Edit, view and delete users</p>
                         </div>
                         <div class="flex items-center justify-center gap-3 flex-row-reverse">
                             <button
                                 class="bg-omini-cad-outer-space flex flex-row-reverse items-center gap-1.5 justify-center text-white py-2 px-6 font-inter text-sm  rounded-md hover:bg-gray-800 cursor-pointer font-semibold">
-                                <svg data-testid="geist-icon" height="16" stroke-linejoin="round"
-                                    style="color: currentcolor;" viewBox="0 0 16 16" width="16" class="size-4">
-                                    <path fill-rule="evenodd" clip-rule="evenodd"
-                                        d="M8.75 1V1.75V8.68934L10.7197 6.71967L11.25 6.18934L12.3107 7.25L11.7803 7.78033L8.70711 10.8536C8.31658 11.2441 7.68342 11.2441 7.29289 10.8536L4.21967 7.78033L3.68934 7.25L4.75 6.18934L5.28033 6.71967L7.25 8.68934V1.75V1H8.75ZM13.5 9.25V13.5H2.5V9.25V8.5H1V9.25V14C1 14.5523 1.44771 15 2 15H14C14.5523 15 15 14.5523 15 14V9.25V8.5H13.5V9.25Z"
-                                        fill="currentColor"></path>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
+                                    fill="none" class="size-5">
+                                    <path d="M12 4V20" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                    <path d="M4 12H20" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                        stroke-linejoin="round" />
                                 </svg>
-                                <span>Export</span>
+                                <span>Add User</span>
                             </button>
                             <button
                                 class="border hover:bg-gray-100  transition-colors rounded-md p-1.5 border-gray-200 font-poppins flex flex-row items-center justify-center gap-2">
@@ -333,345 +334,109 @@
                         </div>
                     </section>
 
-                    <section class="px-4 py-6 grid md:grid-cols-3 gap-6">
-                        <div
-                            class="flex flex-col p-6 max-w-lg bg-white border border-gray-200 rounded-xl hover:border-gray-400 transition-all duration-300">
-                            <div class="flex flex-row items-center justify-between w-full mb-5">
-                                <div class="flex items-center space-x-2">
-                                    <div class="w-1 h-6 bg-omini-cad-punch rounded-full"></div>
-                                    <div class="text-sm font-medium text-gray-500">Product Overview</div>
-                                </div>
-                                <button
-                                    class="bg-gray-50 border text-xs hover:bg-gray-100 transition-colors rounded-lg py-1.5 px-1.5 border-gray-200 font-medium flex flex-row items-center justify-center gap-1 text-gray-700">
-                                    <span>This Month</span>
-                                    <svg data-testid="geist-icon" height="16" stroke-linejoin="round"
-                                        viewBox="0 0 16 16" width="16" class="text-gray-500">
-                                        <path fill-rule="evenodd" clip-rule="evenodd"
-                                            d="M12.0607 6.74999L11.5303 7.28032L8.7071 10.1035C8.31657 10.4941 7.68341 10.4941 7.29288 10.1035L4.46966 7.28032L3.93933 6.74999L4.99999 5.68933L5.53032 6.21966L7.99999 8.68933L10.4697 6.21966L11 5.68933L12.0607 6.74999Z"
-                                            fill="currentColor"></path>
-                                    </svg>
-                                </button>
-                            </div>
+                    <div class="min-h-screen p-4">
+                        <div class="max-w-6xl mx-auto">
+                            <div class="bg-white rounded-xl border border-gray-200">
 
-                            <div class="flex flex-col mb-6">
-                                <div class="flex items-center gap-3 mb-1">
-                                    <div class="text-3xl font-bold text-gray-800">$40,040</div>
-                                    <div
-                                        class="flex items-center text-green-500 bg-green-50 px-2 py-1 rounded-full text-xs font-medium">
-                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
-                                            class="w-3 h-3 mr-1">
-                                            <path fill-rule="evenodd"
-                                                d="M12.577 4.878a.75.75 0 01.919-.53l4.78 1.281a.75.75 0 01.531.919l-1.281 4.78a.75.75 0 01-1.449-.387l.81-3.022a19.407 19.407 0 00-5.594 5.203.75.75 0 01-1.139.093L7 10.06l-4.72 4.72a.75.75 0 01-1.06-1.061l5.25-5.25a.75.75 0 011.06 0l3.074 3.073a20.923 20.923 0 015.545-4.931l-3.042-.815a.75.75 0 01-.53-.919z"
-                                                clip-rule="evenodd" />
-                                        </svg>
-                                        12.5%
+                                <div class="p-5 border-b border-gray-100">
+                                    <h2 class="text-xl font-semibold text-gray-800">Team Members</h2>
+                                    <p class="text-sm text-gray-500 mt-1">Manage your team members and their access</p>
+                                </div>
+
+
+                                <div class="overflow-x-auto">
+                                    <table class="w-full">
+                                        <thead>
+                                            <tr
+                                                class="bg-gray-50 text-xs font-medium text-gray-600 uppercase tracking-wider">
+                                                <th scope="col" class="px-6 py-4 text-left">Full name</th>
+                                                <th scope="col" class="px-6 py-4 text-left">Email</th>
+                                                <th scope="col" class="px-6 py-4 text-left">Role</th>
+                                                <th scope="col" class="px-6 py-4 text-left">Telephone</th>
+                                                <th scope="col" class="px-6 py-4 text-left">Action</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody class="divide-y divide-gray-100">
+                                            <tr class="hover:bg-gray-50 transition-colors duration-200">
+                                                <td class="px-6 py-4 whitespace-nowrap">
+                                                    <div class="font-medium text-gray-900">Gyau Boahen Elvis</div>
+                                                </td>
+                                                <td class="px-6 py-4 whitespace-nowrap">
+                                                    <div class="text-gray-600">gyauelvis@gmail.com</div>
+                                                </td>
+                                                <td class="px-6 py-4 whitespace-nowrap">
+                                                    <span
+                                                        class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-emerald-100 text-emerald-800">
+                                                        Manager
+                                                    </span>
+                                                </td>
+                                                <td class="px-6 py-4 whitespace-nowrap text-gray-600">
+                                                    +233 59 335 3125
+                                                </td>
+                                                <td class="px-6 py-4 whitespace-nowrap text-center">
+                                                    <a href="#"
+                                                        class="font-medium hover:underline flex justify-center items-center">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                                            width="24" height="24" color="#000000" fill="none">
+                                                            <path d="M11.992 12H12.001" stroke="currentColor"
+                                                                stroke-width="2.5" stroke-linecap="round"
+                                                                stroke-linejoin="round" />
+                                                            <path d="M11.9842 18H11.9932" stroke="currentColor"
+                                                                stroke-width="2.5" stroke-linecap="round"
+                                                                stroke-linejoin="round" />
+                                                            <path d="M11.9998 6H12.0088" stroke="currentColor"
+                                                                stroke-width="2.5" stroke-linecap="round"
+                                                                stroke-linejoin="round" />
+                                                        </svg>
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+
+                                <div class="bg-gray-50 px-6 py-4 border-t border-gray-100 rounded-b-xl">
+                                    <div class="flex items-center justify-between">
+                                        <div class="text-sm text-gray-600">
+                                            Showing <span class="font-semibold text-gray-900">1-10</span> of <span
+                                                class="font-semibold text-gray-900">1000</span>
+                                        </div>
+
+                                        <div class="flex space-x-1">
+                                            <a href="#"
+                                                class="inline-flex items-center px-4 py-2 text-sm font-medium rounded-md text-gray-700 bg-white border border-gray-300 hover:bg-gray-50">
+                                                Previous
+                                            </a>
+                                            <a href="#"
+                                                class="inline-flex items-center px-3 py-2 text-sm font-medium rounded-md text-gray-700 bg-white border border-gray-300 hover:bg-gray-50">
+                                                1
+                                            </a>
+                                            <a href="#"
+                                                class="inline-flex items-center px-3 py-2 text-sm font-medium rounded-md text-gray-700 bg-white border border-gray-300 hover:bg-gray-50">
+                                                2
+                                            </a>
+                                            <a href="#"
+                                                class="inline-flex items-center px-3 py-2 text-sm font-medium rounded-md text-white bg-omini-cad-punch border border-omini-cad-punch">
+                                                3
+                                            </a>
+                                            <a href="#"
+                                                class="inline-flex items-center px-3 py-2 text-sm font-medium rounded-md text-gray-700 bg-white border border-gray-300 hover:bg-gray-50">
+                                                4
+                                            </a>
+                                            <a href="#"
+                                                class="inline-flex items-center px-3 py-2 text-sm font-medium rounded-md text-gray-700 bg-white border border-gray-300 hover:bg-gray-50">
+                                                5
+                                            </a>
+                                            <a href="#"
+                                                class="inline-flex items-center px-4 py-2 text-sm font-medium rounded-md text-gray-700 bg-white border border-gray-300 hover:bg-gray-50">
+                                                Next
+                                            </a>
+                                        </div>
                                     </div>
                                 </div>
-                                <p class="text-sm text-gray-500">Total Sales | Compared to last month</p>
-                            </div>
-
-
-                            <div class="border-t border-gray-100 mb-6"></div>
-
-                            <div class="flex justify-between items-center">
-                                <button
-                                    class="bg-omini-cad-outer-space flex items-center gap-2 justify-center text-white py-2 px-5 font-medium text-sm rounded-lg hover:bg-gray-800 transition-colors">
-                                    <span>View Details</span>
-                                </button>
-
-                                <button
-                                    class="bg-gray-100 flex items-center gap-1.5 justify-center text-gray-700 py-2 px-4 font-medium text-sm rounded-lg hover:bg-gray-200 transition-colors">
-                                    <svg data-testid="geist-icon" height="16" stroke-linejoin="round"
-                                        viewBox="0 0 16 16" width="16" class="size-4">
-                                        <path fill-rule="evenodd" clip-rule="evenodd"
-                                            d="M8.75 1V1.75V8.68934L10.7197 6.71967L11.25 6.18934L12.3107 7.25L11.7803 7.78033L8.70711 10.8536C8.31658 11.2441 7.68342 11.2441 7.29289 10.8536L4.21967 7.78033L3.68934 7.25L4.75 6.18934L5.28033 6.71967L7.25 8.68934V1.75V1H8.75ZM13.5 9.25V13.5H2.5V9.25V8.5H1V9.25V14C1 14.5523 1.44771 15 2 15H14C14.5523 15 15 14.5523 15 14V9.25V8.5H13.5V9.25Z"
-                                            fill="currentColor"></path>
-                                    </svg>
-                                    <span>Export</span>
-                                </button>
                             </div>
                         </div>
-                        <div
-                            class="flex flex-col p-6 max-w-lg bg-white border border-gray-200 rounded-xl hover:border-gray-400 transition-all duration-300">
-                            <div class="flex flex-row items-center justify-between w-full mb-5">
-                                <div class="flex items-center space-x-2">
-                                    <div class="w-1 h-6 bg-omini-cad-punch rounded-full"></div>
-                                    <div class="text-sm font-medium text-gray-500">Active Sales</div>
-                                </div>
-                            </div>
-
-                            <div class="flex flex-row justify-between items-center">
-                                <div class="flex flex-col mb-6">
-                                    <div class="flex items-center gap-3 mb-1">
-                                        <div class="text-3xl font-bold text-gray-800">$50,000</div>
-                                    </div>
-                                    <div class="text-sm text-gray-500 flex flex-row">
-                                        <div
-                                            class="flex items-center text-green-500 bg-green-50 px-2 py-1 rounded-full text-xs font-medium">
-                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"
-                                                fill="currentColor" class="w-3 h-3 mr-1">
-                                                <path fill-rule="evenodd"
-                                                    d="M12.577 4.878a.75.75 0 01.919-.53l4.78 1.281a.75.75 0 01.531.919l-1.281 4.78a.75.75 0 01-1.449-.387l.81-3.022a19.407 19.407 0 00-5.594 5.203.75.75 0 01-1.139.093L7 10.06l-4.72 4.72a.75.75 0 01-1.06-1.061l5.25-5.25a.75.75 0 011.06 0l3.074 3.073a20.923 20.923 0 015.545-4.931l-3.042-.815a.75.75 0 01-.53-.919z"
-                                                    clip-rule="evenodd" />
-                                            </svg>
-                                            12.5%
-                                        </div>
-                                        <span>vs last month</span>
-                                    </div>
-                                </div>
-
-                                <div class="h-12 mb-6 flex items-end space-x-1">
-                                    <div class="w-2 bg-red-100 rounded-sm h-12"></div>
-                                    <div class="w-2 bg-red-200 rounded-sm h-6"></div>
-                                    <div class="w-2 bg-red-300 rounded-sm h-8"></div>
-                                    <div class="w-2 bg-red-400 rounded-sm h-5"></div>
-                                    <div class="w-2 bg-red-500 rounded-sm h-10"></div>
-                                    <div class="w-2 bg-red-600 rounded-sm h-12"></div>
-                                </div>
-
-                            </div>
-
-                            <div class="border-t border-gray-100 mb-6"></div>
-                            <div class="flex justify-between items-center">
-                                <button
-                                    class="bg-omini-cad-outer-space flex items-center gap-2 justify-center text-white py-2 px-5 font-medium text-sm rounded-lg hover:bg-gray-800 transition-colors">
-                                    <span>View Details</span>
-                                </button>
-                            </div>
-                        </div>
-
-                        <div
-                            class="flex flex-col p-6 max-w-lg bg-white border border-gray-200 rounded-xl hover:border-gray-400 transition-all duration-300">
-                            <div class="flex flex-row items-center justify-between w-full mb-5">
-                                <div class="flex items-center space-x-2">
-                                    <div class="w-1 h-6 bg-omini-cad-punch rounded-full"></div>
-                                    <div class="text-sm font-medium text-gray-500">Active Sales</div>
-                                </div>
-                            </div>
-
-                            <div class="flex flex-row justify-between items-center gap-6">
-                                <div class="flex flex-col mb-6">
-                                    <div class="flex items-center gap-3 mb-1">
-                                        <div class="text-3xl font-bold text-gray-800">$10,050</div>
-                                    </div>
-                                    <div class="text-sm text-gray-500 flex flex-row items-center gap-2">
-                                        <div
-                                            class="flex items-center text-green-500 bg-green-50 px-2 py-1 rounded-full text-xs font-medium">
-                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"
-                                                fill="currentColor" class="w-3 h-3 mr-1">
-                                                <path fill-rule="evenodd"
-                                                    d="M12.577 4.878a.75.75 0 01.919-.53l4.78 1.281a.75.75 0 01.531.919l-1.281 4.78a.75.75 0 01-1.449-.387l.81-3.022a19.407 19.407 0 00-5.594 5.203.75.75 0 01-1.139.093L7 10.06l-4.72 4.72a.75.75 0 01-1.06-1.061l5.25-5.25a.75.75 0 011.06 0l3.074 3.073a20.923 20.923 0 015.545-4.931l-3.042-.815a.75.75 0 01-.53-.919z"
-                                                    clip-rule="evenodd" />
-                                            </svg>
-                                            12.5%
-                                        </div>
-                                        <span>vs last month</span>
-                                    </div>
-                                </div>
-
-                                <div class="flex items-center justify-center mb-6">
-                                    <canvas id="chart" class="max-w-16 max-h-16"></canvas>
-                                </div>
-                            </div>
-
-
-                            <div class="border-t border-gray-100 mb-6"></div>
-
-                            <div class="flex justify-between items-center">
-                                <button
-                                    class="bg-omini-cad-outer-space flex items-center gap-2 justify-center text-white py-2 px-5 font-medium text-sm rounded-lg hover:bg-gray-800 transition-colors">
-                                    <span>View Details</span>
-                                </button>
-                            </div>
-                        </div>
-                    </section>
-
-                    <section class="px-4 py-3 grid md:grid-cols-3 gap-6">
-                        <div
-                            class="col-span-2 hidden md:flex flex-col p-6 max-xl bg-white border border-gray-200 rounded-xl hover:border-gray-400 transition-all duration-300">
-                            <div class="flex flex-row items-center justify-between w-full mb-5">
-                                <div class="flex items-center space-x-2">
-                                    <div class="w-1 h-6 bg-omini-cad-punch rounded-full"></div>
-                                    <div class="text-sm font-medium text-gray-500">Analytics</div>
-                                </div>
-                                <div class="flex gap-2">
-                                    <button
-                                        class="bg-gray-50 border text-xs hover:bg-gray-100 transition-colors rounded-lg py-1.5 px-1.5 border-gray-200 font-medium flex flex-row items-center justify-center gap-1 text-gray-700">
-                                        <span>This Year</span>
-                                        <svg data-testid="geist-icon" height="16" stroke-linejoin="round"
-                                            viewBox="0 0 16 16" width="16" class="text-gray-500">
-                                            <path fill-rule="evenodd" clip-rule="evenodd"
-                                                d="M12.0607 6.74999L11.5303 7.28032L8.7071 10.1035C8.31657 10.4941 7.68341 10.4941 7.29288 10.1035L4.46966 7.28032L3.93933 6.74999L4.99999 5.68933L5.53032 6.21966L7.99999 8.68933L10.4697 6.21966L11 5.68933L12.0607 6.74999Z"
-                                                fill="currentColor"></path>
-                                        </svg>
-                                    </button>
-                                    <button
-                                        class="border hover:bg-gray-100 transition-colors rounded-md p-1.5 border-gray-200 font-poppins flex flex-row items-center justify-center gap-2 text-xs">
-                                        <svg data-testid="geist-icon" height="16" stroke-linejoin="round"
-                                            style="color: currentcolor;" viewBox="0 0 16 16" width="16">
-                                            <path fill-rule="evenodd" clip-rule="evenodd"
-                                                d="M1 0H1.75H14.25H15V0.75V3V3.31066L14.7803 3.53033L10.5 7.81066V15.25V16H9.75H9H8.7816L8.59734 15.8827L5.84734 14.1327L5.5 13.9117V13.5V7.81066L1.21967 3.53033L1 3.31066V3V0.75V0ZM2.5 1.5V2.68934L6.78033 6.96967L7 7.18934V7.5V13.0883L9 14.361V7.5V7.18934L9.21967 6.96967L13.5 2.68934V1.5H2.5Z"
-                                                fill="currentColor"></path>
-                                        </svg>
-                                        <span>Filters</span>
-                                    </button>
-                                </div>
-                            </div>
-                            <div class="flex flex-col mb-6">
-                                <div class="flex items-center gap-3 mb-1">
-                                    <div class="text-2xl font-semibold text-gray-800">$40,040</div>
-                                    <div class="text-sm text-gray-500">sales</div>
-                                    <div
-                                        class="flex items-center text-green-500 bg-green-50 px-1 py-1 rounded-full text-xs font-medium">
-                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
-                                            class="w-3 h-3 mr-1">
-                                            <path fill-rule="evenodd"
-                                                d="M12.577 4.878a.75.75 0 01.919-.53l4.78 1.281a.75.75 0 01.531.919l-1.281 4.78a.75.75 0 01-1.449-.387l.81-3.022a19.407 19.407 0 00-5.594 5.203.75.75 0 01-1.139.093L7 10.06l-4.72 4.72a.75.75 0 01-1.06-1.061l5.25-5.25a.75.75 0 011.06 0l3.074 3.073a20.923 20.923 0 015.545-4.931l-3.042-.815a.75.75 0 01-.53-.919z"
-                                                clip-rule="evenodd" />
-                                        </svg>
-                                        12.5%
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="border-t border-gray-100 mb-6"></div>
-                            <div>
-                                <canvas id="line-chart">
-                                </canvas>
-
-                            </div>
-                        </div>
-                        <div class="grid grid-rows-2 gap-6">
-                            <div
-                                class="flex flex-col row-span-1 p-6 max-w-lg bg-white border border-gray-200 rounded-xl hover:border-gray-400 transition-all duration-300">
-                                <div class="flex flex-row items-center justify-between w-full mb-2">
-                                    <div
-                                        class="w-full h-14 bg-gray-50 rounded-xl flex items-center px-4 gap-4 border border-gray-200">
-                                        <div class="flex-shrink-0">
-                                            <div class="h-10 w-10 rounded-full bg-white p-0.5 shadow-sm">
-                                                <img src="/public/image/avataaars.svg" alt="User Avatar"
-                                                    class="object-cover rounded-full aspect-square h-full w-full">
-                                            </div>
-                                        </div>
-
-                                        <div class="flex flex-col">
-                                            <div class="text-xs font-medium text-gray-600">
-                                                Ohene Adjei
-                                            </div>
-                                            <div class="text-sm font-bold text-gray-800">
-                                                $40,040
-                                            </div>
-                                        </div>
-
-                                        <div class="ml-auto">
-                                            <div
-                                                class="flex items-center bg-green-100 px-3 py-1.5 rounded-full text-xs font-semibold text-green-600">
-                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"
-                                                    fill="currentColor" class="w-3.5 h-3.5 mr-1">
-                                                    <path fill-rule="evenodd"
-                                                        d="M12.577 4.878a.75.75 0 01.919-.53l4.78 1.281a.75.75 0 01.531.919l-1.281 4.78a.75.75 0 01-1.449-.387l.81-3.022a19.407 19.407 0 00-5.594 5.203.75.75 0 01-1.139.093L7 10.06l-4.72 4.72a.75.75 0 01-1.06-1.061l5.25-5.25a.75.75 0 011.06 0l3.074 3.073a20.923 20.923 0 015.545-4.931l-3.042-.815a.75.75 0 01-.53-.919z"
-                                                        clip-rule="evenodd" />
-                                                </svg>
-                                                12.5%
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="flex flex-row items-center justify-between w-full mb-2">
-                                    <div
-                                        class="w-full h-14 bg-gray-50 rounded-xl flex items-center px-4 gap-4 border border-gray-200">
-                                        <div class="flex-shrink-0">
-                                            <div class="h-10 w-10 rounded-full bg-white p-0.5 shadow-sm">
-                                                <img src="/public/image/avataaars.svg" alt="User Avatar"
-                                                    class="object-cover rounded-full aspect-square h-full w-full">
-                                            </div>
-                                        </div>
-
-                                        <div class="flex flex-col">
-                                            <div class="text-xs font-medium text-gray-600">
-                                                Ohene Adjei
-                                            </div>
-                                            <div class="text-sm font-bold text-gray-800">
-                                                $40,040
-                                            </div>
-                                        </div>
-
-                                        <div class="ml-auto">
-                                            <div
-                                                class="flex items-center bg-green-100 px-3 py-1.5 rounded-full text-xs font-semibold text-green-600">
-                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"
-                                                    fill="currentColor" class="w-3.5 h-3.5 mr-1">
-                                                    <path fill-rule="evenodd"
-                                                        d="M12.577 4.878a.75.75 0 01.919-.53l4.78 1.281a.75.75 0 01.531.919l-1.281 4.78a.75.75 0 01-1.449-.387l.81-3.022a19.407 19.407 0 00-5.594 5.203.75.75 0 01-1.139.093L7 10.06l-4.72 4.72a.75.75 0 01-1.06-1.061l5.25-5.25a.75.75 0 011.06 0l3.074 3.073a20.923 20.923 0 015.545-4.931l-3.042-.815a.75.75 0 01-.53-.919z"
-                                                        clip-rule="evenodd" />
-                                                </svg>
-                                                12.5%
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="flex flex-row items-center justify-between w-full mb-2">
-                                    <div
-                                        class="w-full h-14 bg-gray-50 rounded-xl flex items-center px-4 gap-4 border border-gray-200">
-                                        <div class="flex-shrink-0">
-                                            <div class="h-10 w-10 rounded-full bg-white p-0.5 shadow-sm">
-                                                <img src="/public/image/avataaars.svg" alt="User Avatar"
-                                                    class="object-cover rounded-full aspect-square h-full w-full">
-                                            </div>
-                                        </div>
-
-                                        <div class="flex flex-col">
-                                            <div class="text-xs font-medium text-gray-600">
-                                                Ohene Adjei
-                                            </div>
-                                            <div class="text-sm font-bold text-gray-800">
-                                                $40,040
-                                            </div>
-                                        </div>
-
-                                        <div class="ml-auto">
-                                            <div
-                                                class="flex items-center bg-green-100 px-3 py-1.5 rounded-full text-xs font-semibold text-green-600">
-                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"
-                                                    fill="currentColor" class="w-3.5 h-3.5 mr-1">
-                                                    <path fill-rule="evenodd"
-                                                        d="M12.577 4.878a.75.75 0 01.919-.53l4.78 1.281a.75.75 0 01.531.919l-1.281 4.78a.75.75 0 01-1.449-.387l.81-3.022a19.407 19.407 0 00-5.594 5.203.75.75 0 01-1.139.093L7 10.06l-4.72 4.72a.75.75 0 01-1.06-1.061l5.25-5.25a.75.75 0 011.06 0l3.074 3.073a20.923 20.923 0 015.545-4.931l-3.042-.815a.75.75 0 01-.53-.919z"
-                                                        clip-rule="evenodd" />
-                                                </svg>
-                                                12.5%
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div
-                                class="flex flex-col items-center justify-center w-full p-8 bg-gray-50 rounded-2xl border border-blue-100">
-                                <div class="relative">
-                                    <div class="absolute  rounded-full opacity-50"></div>
-                                    <div
-                                        class="relative flex items-center justify-center font-bold text-8xl text-omini-cad-outer-space">
-                                        28k+
-                                    </div>
-                                </div>
-                                <div class="mt-4 text-lg font-medium text-gray-600">
-                                    New users
-                                </div>
-                                <div class="mt-2 flex items-center text-sm text-gray-500">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
-                                        class="w-4 h-4 mr-1 text-green-500">
-                                        <path fill-rule="evenodd"
-                                            d="M12.577 4.878a.75.75 0 01.919-.53l4.78 1.281a.75.75 0 01.531.919l-1.281 4.78a.75.75 0 01-1.449-.387l.81-3.022a19.407 19.407 0 00-5.594 5.203.75.75 0 01-1.139.093L7 10.06l-4.72 4.72a.75.75 0 01-1.06-1.061l5.25-5.25a.75.75 0 011.06 0l3.074 3.073a20.923 20.923 0 015.545-4.931l-3.042-.815a.75.75 0 01-.53-.919z"
-                                            clip-rule="evenodd" />
-                                    </svg>
-                                    <span>12% growth this month</span>
-                                </div>
-                            </div>
-
-                        </div>
-                    </section>
-
+                    </div>
                 </div>
 
             </main>

@@ -10,3 +10,28 @@
     --font-inter: Inter, sans-serif;
     --font-poppins: Poppins, sans-serif;
 }
+
+.sidebar-transition {
+    transition: width 0.3s ease-in-out;
+}
+
+.toggle-button {
+    transition: all 0.3s ease;
+}
+
+.menu-item {
+    position: relative;
+    overflow: hidden;
+}
+
+.tooltip {
+    @apply absolute left-full ml-2 px-2 py-1 bg-gray-800 text-red-500 text-xs rounded opacity-0 transition-opacity duration-200 pointer-events-none z-50;
+}
+
+.menu-item:hover .tooltip {
+    opacity: 1;
+}
+
+.menu-item.active {
+    @apply bg-gray-100 border-gray-300;
+}
