@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+@theme {
+    --color-omini-cad-outer-space: #282c2b;
+    --color-omini-cad-alto: #d7d4d4;
+    --color-omini-cad-punch: #da3235;
+    --color-omini-group-willow-grove: #61665e;
+    --color-omini-group-sushi: #8fc63e;
+    --color-omini-group-conifer: #aed140;
+    --font-inter: Inter, sans-serif;
+    --font-poppins: Poppins, sans-serif;
+}

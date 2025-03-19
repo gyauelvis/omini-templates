@@ -1,0 +1,28 @@
+<div class="mt-4 relative">
+    <div class="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none">
+        <svg class="w-4 h-4 text-gray-500" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+            fill="none" viewBox="0 0 20 20">
+            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                stroke-width="2" d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z" />
+        </svg>
+    </div>
+    <input type="search" id="sidebar-search"
+        class="block w-full font-poppins p-2 ps-10 text-sm border border-gray-200 rounded-lg bg-gray-50 focus:outline-none focus:ring-1 focus:ring-blue-500 focus:border-blue-500"
+        placeholder="Search menu...">
+</div>
+
+
+<!-- Upgrade Plan -->
+<section class="mt-4 mb-6">
+    <a href="#"
+        class="block w-full bg-blue-600 hover:bg-blue-700 text-white font-medium p-3 rounded-lg text-center transition-colors">
+        Upgrade to Pro
+    </a>
+</section>
+
+<!-- Tooltip for collapsed sidebar (hidden by default) -->
+<div id="tooltip-sidebar" role="tooltip"
+    class="absolute z-10 visible inline-block px-3 py-2 text-sm font-medium text-white transition-opacity duration-300 bg-gray-900 rounded-lg shadow-sm opacity-0 tooltip">
+    Expand sidebar
+    <div class="tooltip-arrow" data-popper-arrow></div>
+</div>
