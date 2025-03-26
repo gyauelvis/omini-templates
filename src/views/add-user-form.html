@@ -264,179 +264,87 @@
 
             <main class="p-4 md:ml-72 h-auto font-poppins">
                 <div class="border border-gray-100 min-h-screen rounded-2xl">
-                    <div class="px-4 flex flex-row items-center justify-between">
-                        <div class="mt-4 relative">
-                            <div class="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none">
-                                <svg class="w-4 h-4 text-gray-500" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
-                                    fill="none" viewBox="0 0 20 20">
-                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                        stroke-width="2" d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z" />
-                                </svg>
+
+                    <div class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
+                        <div class="max-w-xl mx-auto border border-gray-200 px-10 py-5 rounded-xl">
+                            <div class="text-center">
+                                <h1 class="text-3xl capitalize font-bold text-gray-800 sm:text-4xl">
+                                    Add user
+                                </h1>
+                                <p class="mt-1 text-gray-600 dark:text-neutral-400">
+                                    Record the information of a user you want to add
+                                </p>
                             </div>
-                            <input type="search" id="sidebar-search"
-                                class="block w-full font-poppins p-2 ps-10 max-w-64 text-sm border border-gray-200 rounded-lg bg-gray-50 focus:outline-none focus:ring-1 focus:ring-blue-500 focus:border-blue-500"
-                                placeholder="Search menu...">
-                        </div>
-                        <div class="flex flex-row items-center justify-center gap-3">
-                            <a href="#"
-                                class="border rounded-md p-1.5 border-gray-200 hover:bg-gray-100 transition-colors cursor-pointer ">
-                                <svg data-testid="geist-icon" height="16" stroke-linejoin="round"
-                                    style="color: currentcolor;" viewBox="0 0 16 16" width="16">
-                                    <path fill-rule="evenodd" clip-rule="evenodd"
-                                        d="M7.9925 0C4.95079 0 2.485 2.46579 2.485 5.5075V8.22669C2.485 8.77318 2.21321 9.28388 1.75992 9.58912L1.33108 9.8779L1 10.1009V10.5V11.25V12H1.75H14.25H15V11.25V10.5V10.0986L14.666 9.87596L14.2306 9.58565C13.7741 9.28137 13.5 8.76913 13.5 8.22059V5.5075C13.5 2.46579 11.0342 0 7.9925 0ZM3.985 5.5075C3.985 3.29422 5.77922 1.5 7.9925 1.5C10.2058 1.5 12 3.29422 12 5.5075V8.22059C12 9.09029 12.36 9.91233 12.9801 10.5H3.01224C3.62799 9.91235 3.985 9.09303 3.985 8.22669V5.5075ZM10.7486 13.5H9.16778L9.16337 13.5133C9.09591 13.716 8.94546 13.9098 8.72067 14.0501C8.52343 14.1732 8.27577 14.25 8.00002 14.25C7.72426 14.25 7.47661 14.1732 7.27936 14.0501C7.05458 13.9098 6.90412 13.716 6.83666 13.5133L6.83225 13.5H5.25143L5.41335 13.9867C5.60126 14.5516 5.99263 15.0152 6.48523 15.3226C6.92164 15.5949 7.44461 15.75 8.00002 15.75C8.55542 15.75 9.07839 15.5949 9.5148 15.3226C10.0074 15.0152 10.3988 14.5516 10.5867 13.9867L10.7486 13.5Z"
-                                        fill="currentColor"></path>
-                                </svg>
-                            </a>
-                            <div class="my-4 border-l h-6 w-1 border-gray-200"></div>
-                            <button
-                                class="bg-omini-cad-punch flex flex-row-reverse items-center gap-1.5 justify-center text-white py-2 px-6 font-inter text-sm  rounded-md hover:bg-red-700 cursor-pointer font-semibold">
-                                <svg data-testid="geist-icon" height="16" stroke-linejoin="round"
-                                    style="color: currentcolor;" viewBox="0 0 16 16" width="16" class="size-4">
-                                    <path fill-rule="evenodd" clip-rule="evenodd"
-                                        d="M8.75 1V1.75V8.68934L10.7197 6.71967L11.25 6.18934L12.3107 7.25L11.7803 7.78033L8.70711 10.8536C8.31658 11.2441 7.68342 11.2441 7.29289 10.8536L4.21967 7.78033L3.68934 7.25L4.75 6.18934L5.28033 6.71967L7.25 8.68934V1.75V1H8.75ZM13.5 9.25V13.5H2.5V9.25V8.5H1V9.25V14C1 14.5523 1.44771 15 2 15H14C14.5523 15 15 14.5523 15 14V9.25V8.5H13.5V9.25Z"
-                                        fill="currentColor"></path>
-                                </svg>
-                                <span>Export</span>
-                            </button>
-                        </div>
-                    </div>
-                    <div class="my-4 border-t border-gray-200"></div>
 
-                    <section class="px-4 flex flex-col md:flex-row items-start gap-4 md:items-center justify-between">
-                        <div class="font-poppins space-y-1">
-                            <h2 class="text-2xl font-medium">Users Page</h2>
-                            <p class="text-sm text-gray-500">Edit, view and delete users</p>
-                        </div>
-                        <div class="flex items-center justify-center gap-3 flex-row-reverse">
-                            <button
-                                class="bg-omini-cad-outer-space flex flex-row-reverse items-center gap-1.5 justify-center text-white py-2 px-6 font-inter text-sm  rounded-md hover:bg-gray-800 cursor-pointer font-semibold">
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
-                                    fill="none" class="size-5">
-                                    <path d="M12 4V20" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
-                                        stroke-linejoin="round" />
-                                    <path d="M4 12H20" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
-                                        stroke-linejoin="round" />
-                                </svg>
-                                <span>Add User</span>
-                            </button>
-                            <button
-                                class="border hover:bg-gray-100  transition-colors rounded-md p-1.5 border-gray-200 font-poppins flex flex-row items-center justify-center gap-2">
-                                <svg data-testid="geist-icon" height="16" stroke-linejoin="round"
-                                    style="color: currentcolor;" viewBox="0 0 16 16" width="16">
-                                    <path fill-rule="evenodd" clip-rule="evenodd"
-                                        d="M1 0H1.75H14.25H15V0.75V3V3.31066L14.7803 3.53033L10.5 7.81066V15.25V16H9.75H9H8.7816L8.59734 15.8827L5.84734 14.1327L5.5 13.9117V13.5V7.81066L1.21967 3.53033L1 3.31066V3V0.75V0ZM2.5 1.5V2.68934L6.78033 6.96967L7 7.18934V7.5V13.0883L9 14.361V7.5V7.18934L9.21967 6.96967L13.5 2.68934V1.5H2.5Z"
-                                        fill="currentColor"></path>
-                                </svg>
-                                <span>Filters</span>
-                            </button>
-                        </div>
-                    </section>
+                            <div class="mt-12">
+                                <form>
+                                    <div class="grid gap-4 lg:gap-6">
+                                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 lg:gap-6">
+                                            <div>
+                                                <label for="firstname"
+                                                    class="block mb-2 text-sm text-gray-700 font-medium">First
+                                                    Name</label>
+                                                <input placeholder="Enter first name" type="text" name="firstname"
+                                                    id="firstname"
+                                                    class="py-2.5 sm:py-3 px-4 block w-full border-gray-200 rounded-lg sm:text-sm focus:border-omini-cad-outer-space focus:ring-omini-cad-outer-space disabled:opacity-50 disabled:pointer-events-none border">
+                                            </div>
 
-                    <div class="min-h-screen p-4 relative">
-                        <div class="max-w-6xl mx-auto">
-                            <div class="bg-white rounded-xl border border-gray-200">
-
-                                <div class="p-5 border-b border-gray-100">
-                                    <h2 class="text-xl font-semibold text-gray-800">Team Members</h2>
-                                    <p class="text-sm text-gray-500 mt-1">Manage your team members and their access</p>
-                                </div>
-
-
-                                <div class="overflow-x-auto">
-                                    <table class="w-full">
-                                        <thead>
-                                            <tr
-                                                class="bg-gray-50 text-xs font-medium text-gray-600 uppercase tracking-wider">
-                                                <th scope="col" class="px-6 py-4 text-left">Full name</th>
-                                                <th scope="col" class="px-6 py-4 text-left">Email</th>
-                                                <th scope="col" class="px-6 py-4 text-left">Role</th>
-                                                <th scope="col" class="px-6 py-4 text-left">Telephone</th>
-                                                <th scope="col" class="px-6 py-4 text-left">Action</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody class="divide-y divide-gray-100">
-                                            <tr class="hover:bg-gray-50 transition-colors duration-200">
-                                                <td class="px-6 py-4 whitespace-nowrap">
-                                                    <div class="font-medium text-gray-900">Gyau Boahen Elvis</div>
-                                                </td>
-                                                <td class="px-6 py-4 whitespace-nowrap">
-                                                    <div class="text-gray-600">gyauelvis@gmail.com</div>
-                                                </td>
-                                                <td class="px-6 py-4 whitespace-nowrap">
-                                                    <span
-                                                        class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-emerald-100 text-emerald-800">
-                                                        Manager
-                                                    </span>
-                                                </td>
-                                                <td class="px-6 py-4 whitespace-nowrap text-gray-600">
-                                                    +233 59 335 3125
-                                                </td>
-                                                <td class="px-6 py-4 whitespace-nowrap text-center">
-                                                    <a href="#" id="toggle-dropdown-menu"
-                                                        class="font-medium hover:underline flex justify-center items-center">
-                                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                            width="24" height="24"
-                                                            class="pointer-events-none text-omini-group-willow-grove"
-                                                            fill="none">
-                                                            <path d="M11.992 12H12.001" stroke="currentColor"
-                                                                stroke-width="2.5" stroke-linecap="round"
-                                                                stroke-linejoin="round" />
-                                                            <path d="M11.9842 18H11.9932" stroke="currentColor"
-                                                                stroke-width="2.5" stroke-linecap="round"
-                                                                stroke-linejoin="round" />
-                                                            <path d="M11.9998 6H12.0088" stroke="currentColor"
-                                                                stroke-width="2.5" stroke-linecap="round"
-                                                                stroke-linejoin="round" />
-                                                        </svg>
-                                                    </a>
-                                                </td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
-                                </div>
-
-                                <div class="bg-gray-50 px-6 py-4 border-t border-gray-100 rounded-b-xl">
-                                    <div class="flex items-center justify-between">
-                                        <div class="text-sm text-gray-600">
-                                            Showing <span class="font-semibold text-gray-900">1-10</span> of <span
-                                                class="font-semibold text-gray-900">1000</span>
+                                            <div>
+                                                <label for="lastname"
+                                                    class="block mb-2 text-sm text-gray-700 font-medium">Last
+                                                    Name</label>
+                                                <input placeholder="Enter last name" type="text" name="lastname"
+                                                    id="lastname"
+                                                    class="py-2.5 sm:py-3 px-4 block w-full border-gray-200 rounded-lg sm:text-sm focus:border-omini-cad-outer-space focus:ring-omini-cad-outer-space disabled:opacity-50 disabled:pointer-events-none border">
+                                            </div>
                                         </div>
 
-                                        <div class="flex space-x-1">
-                                            <a href="#"
-                                                class="inline-flex items-center px-4 py-2 text-sm font-medium rounded-md text-gray-700 bg-white border border-gray-300 hover:bg-gray-50">
-                                                Previous
-                                            </a>
-                                            <a href="#"
-                                                class="inline-flex items-center px-3 py-2 text-sm font-medium rounded-md text-gray-700 bg-white border border-gray-300 hover:bg-gray-50">
-                                                1
-                                            </a>
-                                            <a href="#"
-                                                class="inline-flex items-center px-3 py-2 text-sm font-medium rounded-md text-gray-700 bg-white border border-gray-300 hover:bg-gray-50">
-                                                2
-                                            </a>
-                                            <a href="#"
-                                                class="inline-flex items-center px-3 py-2 text-sm font-medium rounded-md text-white bg-omini-cad-punch border border-omini-cad-punch">
-                                                3
-                                            </a>
-                                            <a href="#"
-                                                class="inline-flex items-center px-3 py-2 text-sm font-medium rounded-md text-gray-700 bg-white border border-gray-300 hover:bg-gray-50">
-                                                4
-                                            </a>
-                                            <a href="#"
-                                                class="inline-flex items-center px-3 py-2 text-sm font-medium rounded-md text-gray-700 bg-white border border-gray-300 hover:bg-gray-50">
-                                                5
-                                            </a>
-                                            <a href="#"
-                                                class="inline-flex items-center px-4 py-2 text-sm font-medium rounded-md text-gray-700 bg-white border border-gray-300 hover:bg-gray-50">
-                                                Next
-                                            </a>
+                                        <div>
+                                            <label for="email"
+                                                class="block mb-2 text-sm text-gray-700 font-medium">Email</label>
+                                            <input placeholder="Enter email" type="email" name="email" id="email"
+                                                autocomplete="email"
+                                                class="py-2.5 sm:py-3 px-4 block w-full border-gray-200 rounded-lg sm:text-sm focus:border-omini-cad-outer-space focus:ring-omini-cad-outer-space disabled:opacity-50 disabled:pointer-events-none border">
                                         </div>
+                                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 lg:gap-6">
+                                            <div>
+                                                <label for="telephone"
+                                                    class="block mb-2 text-sm text-gray-700 font-medium">Telephone</label>
+                                                <input placeholder="Enter telephone number" type="text" name="telephone"
+                                                    id="telephone"
+                                                    class="py-2.5 sm:py-3 px-4 block w-full border-gray-200 rounded-lg sm:text-sm focus:border-omini-cad-outer-space focus:ring-omini-cad-outer-space disabled:opacity-50 disabled:pointer-events-none border">
+                                            </div>
+
+                                            <div>
+                                                <label for="hs-select-label" class="block text-sm mb-2">Role</label>
+                                                <select id="hs-select-label"
+                                                    class="py-3 px-4 pe-9 block w-full border-gray-200 rounded-lg text-sm focus:border-omini-cad-outer-space focus:ring-omini-cad-outer-space disabled:opacity-50 disabled:pointer-events-none border">
+                                                    <option selected="">Open this select menu</option>
+                                                    <option>Employee</option>
+                                                    <option>Manager</option>
+                                                    <option>Board Member</option>
+                                                </select>
+                                            </div>
+                                        </div>
+
                                     </div>
-                                </div>
+
+                                    <div class="mt-6 grid">
+                                        <button type="submit"
+                                            class="w-full py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-lg border border-transparent bg-omini-cad-outer-space text-white hover:bg-neutral-800 cursor-pointer focus:outline-hidden focus:bg-neutral-700 disabled:opacity-50 disabled:pointer-events-none">Add
+                                            User</button>
+                                    </div>
+
+                                    <div class="mt-3 text-center">
+                                        <p class="text-sm text-gray-500 dark:text-neutral-500">
+                                            User's information will be safely stored
+                                        </p>
+                                    </div>
+                                </form>
                             </div>
                         </div>
                     </div>
+
                 </div>
             </main>
         </div>
